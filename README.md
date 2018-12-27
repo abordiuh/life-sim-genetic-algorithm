@@ -1,5 +1,5 @@
-# Life-Sim-Genetic-Algorithm #
-Life simulation using genetic algorithm. Processing/Java
+# life-sim-genetic-algorithm #
+**Life simulation using genetic algorithm. Processing/Java**
 
 ## Description ##
 There are bots object which are placed on the two dimensional array - environment. 
