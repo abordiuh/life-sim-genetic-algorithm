@@ -22,5 +22,6 @@ Action direction is a number from 0 to 7 starting from top left cell and going c
 5. Pass resource,
 6. Reproduce
 
-**Notes**
+**Notes:**
+
 There is a code for genetic algorithm, although I didn't used it yet for bots and their replication.
