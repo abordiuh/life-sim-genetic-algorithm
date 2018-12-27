@@ -1,6 +1,7 @@
-# Life-Sim-Genetic-Algorithm
+# Life-Sim-Genetic-Algorithm #
 Life simulation using genetic algorithm. Processing/Java
 
+## Description ##
 There are bots object which are placed on the two dimensional array - environment. 
 Each cell of the environmental grid has its type. Currently, there are next types:
 1. TBot
@@ -12,10 +13,13 @@ Bots when placed in the environment, can execute certain actions:
 2. Move,            where energy each game move: -1
 3. Eat Resources,   where energy each move: +1
 
-In future I planned to add next actions:
+All the actions has direction. Bots, on each move will get the environment copy of the area 3x3 with the bot itself in the middle.
+Action direction is a number from 0 to 7 starting from top left cell and going clockwise by side cells, skipping the middle bot's cell.
+
+**In future I am planning to add next actions:**
 4. Eat another bot, where energy each move: +1
 5. Pass resource,
 6. Reproduce
 
-All the actions has direction. Bots, on each move will get the environment copy of the area 3x3 with the bot itself in the middle.
-Action direction is a number from 0 to 7 starting from top left cell and going clockwise by side cells, skipping the middle bot's cell.
+**Notes**
+There is a code for genetic algorithm, although I didn't used it yet for bots and their replication.
