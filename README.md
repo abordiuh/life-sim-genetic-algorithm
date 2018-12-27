@@ -17,6 +17,7 @@ All the actions has direction. Bots, on each move will get the environment copy 
 Action direction is a number from 0 to 7 starting from top left cell and going clockwise by side cells, skipping the middle bot's cell.
 
 **In future I am planning to add next actions:**
+
 4. Eat another bot, where energy each move: +1
 5. Pass resource,
 6. Reproduce
